@@ -2255,7 +2255,7 @@ a.brand:focus{
 
 .project-box{
   display: block;
-  padding-bottom: 30%;
+  padding-bottom: 10%;
   position: relative;
   border:1px solid #fff;
   -webkit-transition: all 0.3s ease;
@@ -2264,9 +2264,9 @@ a.brand:focus{
 }
 
 .project-box-inner{
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  top:0;
+  top:0; */
   width: 100%;
   height: 100%;
   padding:2.14rem 1.928rem;
@@ -6064,7 +6064,7 @@ a.brand:focus{
 
 .project-box{
   display: block;
-  padding-bottom: 30%;
+  padding-bottom: 10%;
   position: relative;
   border:1px solid #fff;
   -webkit-transition: all 0.3s ease;
@@ -6073,9 +6073,9 @@ a.brand:focus{
 }
 
 .project-box-inner{
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  top:0;
+  top:0; */
   width: 100%;
   height: 100%;
   padding:2.14rem 1.928rem;
@@ -7599,9 +7599,7 @@ a.brand:focus{
   /* Homepage v2 */
 
 
-  .project-box{
-    padding-bottom: 75%;
-  }
+
 
   .row-contact-info{
     margin-top: -2rem;
@@ -7903,7 +7901,16 @@ a.brand:focus{
 
 /* 8.7 Min Height 700px */
 
-
+@media only screen and (max-width: 700px) {
+  .magic {
+    padding-bottom: 0%!important;
+   
+  }
+  .magic-1 {
+    padding-bottom: 0%!important;
+   
+  }
+}
 
 @media (min-height: 700px){
 
